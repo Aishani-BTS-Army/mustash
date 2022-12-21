@@ -1,0 +1,19 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+    background-color: rgb(147, 14, 147);
+}
+canvas {
+    animation-name: howler;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes howler {
+
+    from {box-shadow: 1px 1px 38px rgb(250, 227, 135);}
+    to {box-shadow: 1px 1px 38px purple;}
+}
